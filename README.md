@@ -1,6 +1,6 @@
 # kubeadm-inside-the-great-wall
 
-#### v1.16.3
+#### v1.16.3 (latest)
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/_shell/pull-1.16.3.sh)"
@@ -43,7 +43,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-
 ```
 
 #### v1.15.1
-
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/_shell/pull-1.15.1.sh)"
