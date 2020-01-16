@@ -2,7 +2,13 @@
 
 ## kubeadm
 
-#### v1.17.0 (latest)
+#### v1.17.1
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/_shell/pull-1.17.1.sh)"
+```
+
+#### v1.17.0
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/_shell/pull-1.17.0.sh)"
