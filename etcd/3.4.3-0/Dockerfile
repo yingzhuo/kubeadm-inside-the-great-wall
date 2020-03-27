@@ -1,3 +1,3 @@
 FROM k8s.gcr.io/etcd:3.4.3-0
 
-LABEL maintainer="应卓 yingzhor@gmail.com"
+LABEL MAINTAINER="应卓 <yingzhor@gmail.com>"
