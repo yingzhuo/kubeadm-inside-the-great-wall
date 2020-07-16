@@ -1,11 +1,9 @@
-timestamp             = $(shell /bin/date "+%F %T")
-
 no_default:
-	@echo "no defualt target"; false
+	@echo "no default target"
 
 github:
 	@git add .
-	@git commit -m "$(timestamp)"
+	@git commit -m "$(shell /bin/date "+%F %T")"
 	@git push
 
 .PHONY: no_default github
