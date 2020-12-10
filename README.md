@@ -19,3 +19,17 @@ kubeadm init \
 # v1.19.4 (latest)
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.19.4.sh)"
 ```
+
+提示: 你可以先确定你要使用的版本。
+
+```bash
+sudo apt-cache policy kubeadm | less
+```
+
+然后再选择你需要的版本安装:
+
+```bash
+sudo apt-get install -y kubernetes-cni=0.8.7-00
+sudo apt-get install -y kubeadm=1.19.4-00 kubelet=1.19.4-00 kubectl=1.19.4-00
+sudo apt-mark hold kubelet kubeadm kubectl kubernetes-cni
+```
