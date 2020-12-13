@@ -25,7 +25,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-
 
 #### 关于版本选择
 
-超找已有的版本:
+查找已有的版本:
 
 ```bash
 sudo apt-cache policy kubeadm | less
