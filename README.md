@@ -6,7 +6,7 @@
 
 ```bash
 kubeadm init \
-	--kubernetes-version=v1.19.4 \
+	--kubernetes-version=v1.19.5 \
 	--apiserver-advertise-address=0.0.0.0 \
 	--image-repository=registry.cn-shanghai.aliyuncs.com/yingzhuo \
 	--token=abcdef.0123456789abcdef \
@@ -19,11 +19,13 @@ kubeadm init \
 # v1.20.0 (latest)
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.20.0.sh)"
 
-# v1.19.4
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.19.4.sh)"
+# v1.19.5
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.19.5.sh)"
 ```
 
 #### 关于版本选择
+
+超找已有的版本:
 
 ```bash
 sudo apt-cache policy kubeadm | less
@@ -38,6 +40,8 @@ sudo apt-get autoremove -y --purge kubernetes-cni kubeadm kubelet kubectl
 然后再选择你需要的版本安装安装之:
 
 ```bash
-sudo apt-get install -y kubeadm=1.19.\* kubectl=1.19.\* kubelet=1.19.\* kubernetes-cni=0.8.7-00
+sudo apt-get install -y kubeadm=1.19.\* kubectl=1.19.\* kubelet=1.19.\* kubernetes-cni=0.8.7-00 \
+    --allow-change-held-packages
+
 sudo apt-mark hold kubelet kubeadm kubectl kubernetes-cni
 ```
