@@ -40,8 +40,6 @@ sudo apt-get autoremove -y --purge kubernetes-cni kubeadm kubelet kubectl
 然后再选择你需要的版本安装安装之:
 
 ```bash
-sudo apt-get install -y kubeadm=1.19.\* kubectl=1.19.\* kubelet=1.19.\* kubernetes-cni=0.8.7-00 \
-    --allow-change-held-packages
-
+sudo apt-get install -y kubeadm=1.19.\* kubectl=1.19.\* kubelet=1.19.\* kubernetes-cni=0.8.7-00 --allow-change-held-packages --allow-downgrades
 sudo apt-mark hold kubelet kubeadm kubectl kubernetes-cni
 ```
