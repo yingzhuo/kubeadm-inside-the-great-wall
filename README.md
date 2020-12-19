@@ -6,7 +6,7 @@
 
 ```bash
 kubeadm init \
-	--kubernetes-version=v1.19.5 \
+	--kubernetes-version=v1.19.6 \
 	--apiserver-advertise-address=0.0.0.0 \
 	--image-repository=registry.cn-shanghai.aliyuncs.com/yingzhuo \
 	--token=abcdef.0123456789abcdef \
@@ -40,6 +40,13 @@ sudo apt-get autoremove -y --purge kubernetes-cni kubeadm kubelet kubectl
 然后再选择你需要的版本安装安装之:
 
 ```bash
-sudo apt-get install -y kubeadm=1.19.\* kubectl=1.19.\* kubelet=1.19.\* kubernetes-cni=0.8.7-00 --allow-change-held-packages --allow-downgrades
+sudo apt-get install -y \
+    kubeadm=1.19.\* \
+    kubectl=1.19.\* \
+    kubelet=1.19.\* \
+    kubernetes-cni=0.8.7-00 \
+    --allow-change-held-packages \
+    --allow-downgrades
+
 sudo apt-mark hold kubelet kubeadm kubectl kubernetes-cni
 ```
