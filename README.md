@@ -6,7 +6,7 @@
 
 ```bash
 kubeadm init \
-	--kubernetes-version=v1.19.6 \
+	--kubernetes-version=v1.19.7 \
 	--apiserver-advertise-address=0.0.0.0 \
 	--image-repository=registry.cn-shanghai.aliyuncs.com/yingzhuo \
 	--token=abcdef.0123456789abcdef \
@@ -16,11 +16,11 @@ kubeadm init \
 如果你需要直接拉取镜像，则可以使用这些[脚本](./.shell)。
 
 ```bash
-# v1.20.1 (latest)
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.20.1.sh)"
+# v1.20.2 (latest)
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.20.2.sh)"
 
-# v1.19.6
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.19.6.sh)"
+# v1.19.7
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.19.7.sh)"
 ```
 
 #### 关于版本选择
