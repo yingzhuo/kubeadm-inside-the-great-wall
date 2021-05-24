@@ -2,7 +2,8 @@
 
 由于在中国大陆地区无法访问`k8s.gcr.io`，本人将通过`kubeadm`安装`kubernetes`所需的镜像搬运到阿里云上。欢迎使用。
 
-> **注意:** v1.15.0之前的版本不支持。
+> **注意1:** v1.15.0之前的版本不支持。
+> **注意2:** 从2021年05月24开始本人不在提供`v19.x.x`以下版本的映射。
 
 ```bash
 kubeadm init \
@@ -22,8 +23,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-
 # v1.20.7
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.20.7.sh)"
 
-# v1.19.10
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.19.10.sh)"
+# v1.19.11
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.19.11.sh)"
 ```
 
 #### 关于版本选择
