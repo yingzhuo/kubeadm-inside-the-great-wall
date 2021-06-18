@@ -22,11 +22,11 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-
 # v1.20.7
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.20.7.sh)"
 
-# v1.19.11
+# v1.19.12
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.19.12.sh)"
 ```
 
-#### 关于版本选择
+#### 关于版本选择 (Ubuntu为例)
 
 查找已有的版本:
 
