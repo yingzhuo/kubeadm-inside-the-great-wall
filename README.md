@@ -19,8 +19,8 @@ kubeadm init \
 # v1.21.3 (latest)
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.21.3.sh)"
 
-# v1.20.9
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.20.9.sh)"
+# v1.20.10
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.20.10.sh)"
 
 # v1.19.14
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.19.14.sh)"
