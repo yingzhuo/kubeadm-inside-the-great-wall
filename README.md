@@ -6,7 +6,7 @@
 
 ```bash
 kubeadm init \
-	--kubernetes-version=v1.19.14 \
+	--kubernetes-version=v1.19.15 \
 	--apiserver-advertise-address=0.0.0.0 \
 	--image-repository=registry.cn-shanghai.aliyuncs.com/yingzhuo \
 	--token=abcdef.0123456789abcdef \
