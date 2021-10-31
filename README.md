@@ -16,8 +16,8 @@ kubeadm init \
 如果你需要直接拉取镜像，则可以使用这些[脚本](./.shell)。
 
 ```bash
-# v1.21.5 (latest)
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.21.5.sh)"
+# v1.21.6
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.21.6.sh)"
 
 # v1.20.12
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.20.12.sh)"
