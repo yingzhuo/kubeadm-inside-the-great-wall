@@ -6,7 +6,7 @@
 
 ```bash
 kubeadm init \
-	--kubernetes-version=v1.19.15 \
+	--kubernetes-version=v1.19.16 \
 	--apiserver-advertise-address=0.0.0.0 \
 	--image-repository=registry.cn-shanghai.aliyuncs.com/yingzhuo \
 	--token=abcdef.0123456789abcdef \
@@ -22,8 +22,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-
 # v1.20.11
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.20.11.sh)"
 
-# v1.19.15
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.19.15.sh)"
+# v1.19.16
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/yingzhuo/kubeadm-inside-the-great-wall/master/.shell/pull-1.19.16.sh)"
 ```
 
 #### 关于版本选择 (Ubuntu为例)
